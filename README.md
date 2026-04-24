@@ -14,4 +14,4 @@ will monitor your process with minimal performacne loss and produce
 (eg ```cat callstackinfo.out | ./flamegraph.pl > flamegraph.png```)
 
 ## Dependencies
-Depends on https://github.com/fantasyzh/uniqstack (including the path to libunwind suggested there)
+Depends on https://github.com/fantasyzh/uniqstack (including the path to libunwind suggested there). At this time, the path to this binary is hardwired and will need to be changed to suit your setup..
